@@ -1,8 +1,8 @@
+#include <Adafruit_NeoPixel.h>
+
 // Low power NeoPixel earrings example.  Makes a nice blinky display
 // with just a few LEDs on at any time...uses MUCH less juice than
 // rainbow display!
- 
-#include <Adafruit_NeoPixel.h>
  
 #define PIN 0
 #define D1 1
@@ -12,8 +12,8 @@ Adafruit_NeoPixel pixels = Adafruit_NeoPixel(20, PIN);
  
 uint8_t  mode   = 0, // Current animation effect
          offset = 0; // Position of spinny eyes
-uint32_t color2  = 0xFFFFFF; // Start red
-uint32_t color   = 0xFFFFFF; // Start red
+uint32_t color2  = 0; // Start red
+uint32_t color   = 0; // Start red
 uint32_t prevTime;
 
 uint16_t brightness = 0;
