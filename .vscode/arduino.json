@@ -1,0 +1,5 @@
+{
+    "board": "adafruit:avr:gemma",
+    "sketch": "sketch_sep19a.ino",
+    "port": "USBtiny"
+}
